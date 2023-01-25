@@ -1,0 +1,79 @@
+
+:root{
+    --red:#dc3545;
+}
+
+/*******NAVBAR********/
+.navbar{
+  height: 4rem;
+
+}
+.navbar-brand img{
+    width: 15rem;
+    height: 10vh;
+}
+
+.nav-link{
+    transition: color 0.7s;
+}
+
+.nav-link.active:hover {
+    color: var(--red) !important;
+  }
+  
+  .nav-link:hover {
+    color: var(--red);
+  }
+
+  /* ********************CAROUSEL****************/
+
+  .carousel-item {
+    max-height: calc(100vh - 64px);
+  }
+
+  .carousel-indicators button {
+    background-color: rgb(226, 241, 197) !important ;
+    padding: 0.1rem !important;
+    width: 3rem !important;
+    /* margin-right: 1rem !important; */
+  }
+
+  /* *****************ABOUT *******************/
+  /* *****************Actor *******************/
+
+  #actor img{
+    height: 15rem;
+  }
+  .card:hover{
+    width: 18%;
+    
+  }
+  /* *****************Contact*******************/
+
+  .btn{
+    /* display: block;
+    width: 10%;
+    height: 1rem;
+    padding: 1rem; */
+  }
+  
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:90%;
+    width:100%;
+    position:absolute;
+}
+
+
+/**************footer***************/
+.list-inline-item:hover{
+    color: var(--red);
+
+}
