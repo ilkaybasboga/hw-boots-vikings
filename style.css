@@ -5,7 +5,7 @@
 
 /*******NAVBAR********/
 .navbar{
-  height: 64px;
+  height: 100px;
  z-index: 1;
 }
 /* .navbar:visited{
@@ -13,8 +13,9 @@
   
 } */
 .navbar-brand img{
-    width: 15rem;
-    height: 9vh;
+    width: 9rem;
+    /* height: 100%; */
+    /* border: #dc3545 2px solid; */
 } 
 
 .nav-link{
@@ -33,7 +34,7 @@
   /* ********************CAROUSEL****************/
 
   .carousel-item {
-    max-height: calc(100vh - 64px);
+    max-height: calc(100vh - 100px);
    z-index: 0;
   }
 
