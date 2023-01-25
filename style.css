@@ -6,6 +6,7 @@
 /*******NAVBAR********/
 .navbar{
   height: 64px;
+  z-index: 1;
 
 }
 .navbar-brand img{
@@ -29,6 +30,7 @@
 
   .carousel-item {
     max-height: calc(100vh - 64px);
+    z-index: 0;
   }
 
   .carousel-indicators button {
