@@ -6,9 +6,12 @@
 /*******NAVBAR********/
 .navbar{
   height: 64px;
-  z-index: 1;
-
+ z-index: 1;
 }
+/* .navbar:visited{
+  height: 20rem;
+  
+} */
 .navbar-brand img{
     width: 15rem;
     height: 10vh;
@@ -16,6 +19,7 @@
 
 .nav-link{
     transition: color 0.7s;
+   
 }
 
 .nav-link.active:hover {
@@ -30,7 +34,7 @@
 
   .carousel-item {
     max-height: calc(100vh - 64px);
-    z-index: 0;
+   z-index: 0;
   }
 
   .carousel-indicators button {
@@ -46,10 +50,9 @@
   #actor img{
     height: 15rem;
   }
-  .card:hover{
-    width: 18%;
-    
-  }
+
+   
+    .card:hover, .card:active { width: 18%;}
   /* *****************Contact*******************/
 
   .btn{
