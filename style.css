@@ -52,8 +52,13 @@
     height: 15rem;
   }
 
-   
-    .card:hover, .card:active { width: 18%;}
+  #actor .card {
+    transition: transform 0.3s;
+  }
+  
+  #actor .card:hover {
+    transform: scale(1.03);
+  }
   /* *****************Contact*******************/
 
   .btn{
