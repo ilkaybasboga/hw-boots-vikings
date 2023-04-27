@@ -3,7 +3,7 @@ https://ilkaybasboga.github.io/hw-boots-vikings/#
 
 # Project : Bootstrap-Vikings Website 
 
-## Expected Outcome
+## Conclusion
 
 ![Project 003 Snapshot](viking.gif)
 
