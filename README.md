@@ -3,7 +3,9 @@ https://ilkaybasboga.github.io/hw-boots-vikings/#
 
 # Project : Bootstrap-Vikings Website 
 
+## Conclusion
 
+![Project 003 Snapshot](viking.gif)
 
 ## Description
 I aimed to create a project Bootstrap-Vikings Website (carousel) .
@@ -22,9 +24,7 @@ Bootstrap-Vikings Design. (folder)
   
 
 ```
-## Conclusion
 
-![Project 003 Snapshot](viking.gif)
 
 ## Steps to Solution
   
